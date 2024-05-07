@@ -5,8 +5,67 @@
 
     <h1>Home</h1>
 
-    <p class="lead">This is the home page.</p>
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fancy Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+        }
+        .text {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Fancy Home Page</h1>
+        <p>Where creativity meets technology</p>
+    </header>
+    <div class="container">
+        <div class="image">
+            <img src="https://cdn.mos.cms.futurecdn.net/xaycNDmeyxpHDrPqU6LmaD.jpg" alt="Fancy Image">
+        </div>
+        <div class="text">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus consectetur, luctus nisl nec, finibus velit. Nulla quis felis eu sem interdum eleifend non nec lorem.</p>
+        </div>
+        <div class="image">
+            <img src="https://via.placeholder.com/600x300" alt="Another Fancy Image">
+        </div>
+        <div class="text">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus consectetur, luctus nisl nec, finibus velit. Nulla quis felis eu sem interdum eleifend non nec lorem.</p>
+        </div>
+    </div>
+</body>
+</html>
 
-    <p>Here is some more info!</p>
 
 {% endblock %}
